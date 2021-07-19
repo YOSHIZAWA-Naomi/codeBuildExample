@@ -2,5 +2,6 @@ Version: 0.2
 phases:
  build:
    commands:
-     - echo 'test!'
+     - echo '==test=='
+     - cat /etc/issue
      - sh test.sh
