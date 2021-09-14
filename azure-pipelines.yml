@@ -14,5 +14,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    test.sh
+    sh test.sh
   displayName: 'Run a multi-line script'
